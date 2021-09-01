@@ -19,8 +19,7 @@ print('Simple Interest = ', simple)
 print('')
 
 # compound interest
-pt1 = (1 + rate)*time - 1
-pt1 -= 1
+pt1 = ((1 + rate)*time) - 1
 pt2 = principle*pt1
 print('Compound Interest = ', pt2)
 print('')
