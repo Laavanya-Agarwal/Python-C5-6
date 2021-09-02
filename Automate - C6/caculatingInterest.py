@@ -7,9 +7,9 @@ print('')
 
 # taking the values
 print('Enter the values to get the interests')
-principle = input('Enter the principle amount: ')
-rate = input('Enter the rate of interest: ')
-time = input('Enter the number of years of loan: ')
+principle = int(input('Enter the principle amount: '))
+rate = int(input('Enter the rate of interest: '))
+time = int(input('Enter the number of years of loan: '))
 print('')
 
 # simple interest
